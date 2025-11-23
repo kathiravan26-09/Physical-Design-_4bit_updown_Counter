@@ -68,30 +68,37 @@ In order to add any of the objects, make a right click on the corresponding labe
 Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add slow.lib with a label Slow or any identifier of your own.
+<img width="1920" height="1080" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/eb77ea14-3b5b-4f4e-9f4c-f9e47449ea7b" />
 
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
-
+<img width="1920" height="1080" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/67ca6030-9fde-4ef5-8017-3df37cfe0245" />
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
+<img width="1920" height="1080" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/c4748a93-bfd1-4d3f-a2e7-cc020302fee4" />
 
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
+<img width="1920" height="1080" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/f562f40e-44de-4eff-9907-3b3682a62684" />
+<img width="1920" height="1080" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/9f58d687-c917-4611-b9ad-5f965538830a" />
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+<img width="1920" height="1080" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/9e1b7a9c-afb5-4b7a-9399-25c174c8fa57" />
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
+<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/1aec30b8-b738-4a81-b0cf-965fcc53a83a" />
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/b675fcf7-7dda-42ed-95fe-f0c537ccd99d" />
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -106,6 +113,7 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 In the Import Design window click the save option to save the Default.globals file
 
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
+<img width="1920" height="1080" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/68d2eba5-688d-4569-9d53-00d532923c5f" />
 
 ### Fig.8 Core area
 
@@ -126,6 +134,7 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+<img width="1920" height="1080" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/88e77539-d489-443b-8e0e-f916362550cc" />
 
 ### Fig.9 Specify Floorplan 
 
@@ -170,6 +179,7 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
+<img width="1920" height="1080" alt="Screenshot (91)" src="https://github.com/user-attachments/assets/ad2c5f3b-3e2a-42ef-98e3-bc8acf4bc010" />
 
 ### Fig.10 Power plan 
 
@@ -182,6 +192,9 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 2. Select Place → Place Standard Cell → Run Full Placement → Mode → Enable ‘Place I/O Pins’ → OK → OK .
    
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
+
+<img width="1920" height="1080" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/1369930c-e57c-4703-be5f-92a97ec6cb36" />
+
 
 ### Fig.11 Placement of standard Cells 
 
